@@ -44,52 +44,16 @@ querySnapshot.forEach((doc) => {
 });
 
  
+const user = auth.currentUser;
+const newPassword = newpass.value
 
-const updatePasswordButton = document.getElementById("upt");
-updatePasswordButton.addEventListener("click", () => {
-    const oldPasswordInput = document.getElementById("oldPassword");
-    const newPasswordInput = document.getElementById("newPassword");
-    const repeatPasswordInput = document.getElementById("password");
-    const user = auth.currentUser;
-
-    const oldPassword = oldPasswordInput.value;
-    const newPassword = newPasswordInput.value;
-    const repeatPassword = repeatPasswordInput.value;
-
-    // Validation
-    if (!oldPassword || !newPassword || !repeatPassword) {
-        alert("All fields are required.");
-        return;
-    }
-
-    if (newPassword !== repeatPassword) {
-        alert("New passwords do not match.");
-        return;
-    }
-
-    const credentials = firebase.auth.EmailAuthProvider.credential(
-        user.email,
-        oldPassword
-    );
-
-    // Reauthenticate the user
-    user.reauthenticateWithCredential(credentials)
-        .then(() => {
-            // User has been reauthenticated, now update the password
-            user.updatePassword(newPassword)
-                .then(() => {
-                    alert("Password updated successfully.");
-                    oldPasswordInput.value = "";
-                    newPasswordInput.value = "";
-                    repeatPasswordInput.value = "";
-                })
-                .catch((error) => {
-                    alert("Error updating password: " + error.message);
-                });
-        })
-        .catch((error) => {
-            alert("Error reauthenticating user: " + error.message);
-        });
+updatePassword(user, newPassword)
+.then(() => {
+  // Update successful.
+  alert("updated")
+}).catch((error) => {
+  // An error ocurred
+  // ...
 });
 
 
