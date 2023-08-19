@@ -1,0 +1,153 @@
+
+*{
+  margin: 0px;
+  padding: 0px;
+}
+.navi{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: red;
+  height: 40px;
+}
+.navi a{
+  text-decoration: none;
+  color: white;
+}
+.navi a h1{
+  font-size: 30px;
+}
+.auth a{
+  font-size: 20px;
+}
+
+.auth{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+padding-left: 30px;
+}
+.auth p{
+  margin-left: 20px;
+}
+.navi2 h1{
+  width: 140px;
+  /* height: 30px; */
+  position: relative;
+  left: 19%;
+}
+.navi2{
+  height: 50px;
+  background-color: rgb(240, 233, 223);
+}
+
+
+
+.cont{
+    display: grid;
+place-items: center;
+min-height: 90vh;
+  background: #fff;
+text-align: center;
+
+}
+
+
+.forms{
+    height: 507px;
+  width: 290px;
+  background-color: #fff;
+ border-radius: 8px;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+ /* place-self: center; */
+ 
+}
+
+.forms input,button{
+  margin-top: 20px;
+  width: 230px;
+  height: 50px;
+  font-size: 20px;
+  font-family: sans-serif;
+}
+.forms input{
+    border: none;
+    outline: none;
+    border-bottom: 1px solid red;
+}
+.forms button{
+    margin-top: 30px;
+    cursor: pointer;
+    background-color: red;
+    border-radius: 10px;
+    color: #fff;
+}
+.forms button:hover{
+    border: 1px solid red;
+    outline: none;
+         background: none;
+         color: black;
+
+}
+.forms h1{
+     font-size: 40px;
+     text-align: center;
+     color: red;
+     border-bottom: 2px solid rgb(0, 0, 0);
+    }
+    .hed{
+        display: flex;
+     justify-content: center;
+    text-align: center;
+    width: auto;
+}
+
+
+.forms2{
+  height: 300px;
+width: 290px;
+background-color: #fff;
+border-radius: 8px;
+box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+/* place-self: center; */
+
+}
+
+.forms2 input,button{
+margin-top: 10px;
+width: 230px;
+height: 50px;
+font-size: 20px;
+font-family: sans-serif;
+}
+.forms2 input{
+  border: none;
+  outline: none;
+  border-bottom: 1px solid red;
+}
+.forms2 button{
+  margin-top: 30px;
+  cursor: pointer;
+  background-color: red;
+  border-radius: 10px;
+  color: #fff;
+}
+.forms2 button:hover{
+  border: 1px solid red;
+  outline: none;
+       background: none;
+       color: black;
+
+}
+.forms2 h1{
+   font-size: 40px;
+   text-align: center;
+   color: red;
+   border-bottom: 2px solid rgb(0, 0, 0);
+  }
+  .hed{
+      display: flex;
+   justify-content: center;
+  text-align: center;
+  width: auto;
+}

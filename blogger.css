@@ -1,0 +1,69 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.navi{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: red;
+    height: 40px;
+}
+.navi a{
+    text-decoration: none;
+    color: white;
+}
+.navi a h1{
+    font-size: 30px;
+  }
+  .auth a{
+    font-size: 20px;
+  }
+.auth{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+padding-left: 30px;
+}
+.auth p{
+    margin-left: 20px;
+}
+.inf p {
+    font-size: 19px;
+    color: whitesmoke;
+}
+.navi2 h1{
+    width: 270px;
+    /* height: 30px; */
+    position: relative;
+    left: 19%;
+  }
+  .navi2{
+    height: 50px;
+    background-color: rgb(240, 233, 223);
+  }
+
+  .profile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    width: 50%;
+    height: 40%;
+    background-color: beige;
+  }
+  .informate{
+    border: 2px solid black;
+    height: 300px;
+    width: 200px;
+    text-align: center;
+  }
+  #myimg{
+      height: auto;
+      width: 200px;
+  }
+.informate input{
+
+  width: 190px;
+  height: 30px;
+}

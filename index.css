@@ -1,0 +1,152 @@
+ body{
+  background-color: rgb(245, 245, 245);
+ }
+ *{
+    margin: 0px;
+    padding: 0px;
+}
+.navi{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: red;
+    height: 40px;
+}
+.navi a{
+    text-decoration: none;
+    color: white;
+}
+.navi a h1{
+    font-size: 30px;
+  }
+  .auth a{
+    font-size: 20px;
+  }
+.auth{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+padding-left: 30px;
+}
+.auth p{
+    margin-left: 20px;
+}
+.inf p {
+    font-size: 19px;
+    color: whitesmoke;
+}
+.navi2 h1{
+    width: 140px;
+    /* height: 30px; */
+    position: relative;
+    left: 19%;
+  }
+  .navi2{
+    height: 50px;
+    background-color: rgb(255, 255, 255);
+  }
+  
+  .post{
+width: 40px;
+  }
+
+  .todo{
+     background-color: white;
+      width: 580px;
+   border-radius: 0.2rem;
+      box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+      display: flex;
+      justify-content: space-around;
+      
+    }
+  .todo >*{
+    margin-left: 2rem;
+  }
+    .main
+    {
+      margin-top: 10px;
+      display: flex;
+      flex-direction: column;
+      gap: 50px;
+    justify-content: center;
+    align-items: center;
+}
+#title{
+  font-weight: bold;
+}
+
+  #myimg{
+   width: 100px;
+  }
+  .desc-div{
+    width: 500px;
+     margin-left: 70px;
+  }
+.inform{
+    margin-top: 50px;
+ display: grid;
+ place-items: center;
+}
+.inform_iner{
+  background-color: white;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    width: 540px; 
+    text-align: center;
+}
+.inform_iner input , textarea{
+    margin-top: 20px;
+    width: 520px;
+    height: 100px;
+resize: none;
+}
+.inform_iner input {
+    height: 38px;
+}
+.post-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    cursor: pointer;
+    background-color: red;
+    border-radius: 10px;
+    color: #fff;
+    width: 100px;
+  height: 30px;
+  text-align: center;
+}
+.post-btn:hover {
+
+    border: 1px solid red;
+    outline: none;
+    background: none;
+    color: black;
+}
+#prof{
+  margin-left: 10px;
+}
+
+h3{
+margin-left: 260PX;
+font-size: 34PX;
+}
+
+.buttons{
+ margin-top: 10px;
+  background: red;
+  color: white;
+  border-radius: 0.2rem;
+  height: 1.5rem;
+  width: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.buttons:hover{
+  background: none;
+  color: rgb(0, 0, 0);
+}
+
+.flex{
+  display: flex;
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href= "/Css/loginsigin.css">
+</head>
+<body>
+    <header>
+    <nav class="navi">
+        <div >
+            <a href="/index.html">
+                <h1> Personal Blogging App </h1>
+            </a>
+        </div>
+        <div class="auth">
+            
+            <a href=/login.html" id="c">Login</a>
+               
+            
+        </div>
+    </nav>
+    <div class="navi2">
+   <h1>Sign Up</h1>
+    </div>
+    
+
+    </header>
+
+
+    <div class="cont">
+        <div class="forms" id="forms1"> 
+          <div class="hed">  <h1>Sign Up</h1></div>
+           <input type="text" name="username" id="username" placeholder="First Name" minlength="3" maxlength="20">
+       <br>
+       <input type="text" name="username" id="lastname" placeholder="Last Name" minlength="1" maxlength="20">
+       <br>
+            <input type="email" placeholder="Email" id="Email" required="@">
+           <br>
+            <input type="password" placeholder="Password" id="password" required minlength="8" pattern="(?=.*d)(?=.*[a-z]) (?=.*[A-Z]).{8,}" required />
+           <br>
+           <br>
+           <input type="password"placeholder="Repeat password" id="repeatPassword"> 
+
+            <input type="file" id="file">
+
+            <button id="sign"> Sign up</button>
+           
+         </div>
+         
+         <script type="module" src="/signup.js"></script> 
+</body>
+</html>
