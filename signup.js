@@ -26,7 +26,7 @@ btn.addEventListener('click',()=>{
           password:password,
           repeatpassword:repeat
         });
-        window.location.href = "/pages/login.html"
+        window.location.href = "login.html"
         
         
       })
